@@ -1,19 +1,22 @@
-# 🎈 Blank app template
+✉️Smart Email Summarizer & Priority Sorter
 
-A simple Streamlit app template for you to modify!
+A demo AI/ML project that summarizes email bodies and assigns an urgency/priority score. Purpose-built to showcase practical NLP + product thinking: explainable scoring, LLM summarization (optional), and a clean Streamlit UI.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Features
 
-### How to run it on your own machine
+Fast, concise 1–2 sentence email summaries (uses OpenAI if available, otherwise a transformers fallback).
 
-1. Install the requirements
+Interpretable priority scoring (High / Medium / Low) with human-readable reasons.
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+Streamlit demo UI to try the project locally.
 
-2. Run the app
+Easy hooks to upgrade scoring to a trained model (notebook suggestions included in comments).
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+
+Why this stands out
+
+Real-world utility: hiring managers like projects that automate repetitive but important tasks.
+
+Explainability: each score returns reasons that are easy to discuss in interviews.
+
+Upgrade path: replace the heuristics with TF-IDF + logistic regression or a small Transformer fine-tune and show A/B results.
